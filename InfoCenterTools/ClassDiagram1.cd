@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InfoCenter.Classes.CompilerData" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAIiAAAAAAAAQIAAAAAAAAgAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Compiler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Classes.ContinutUpdate&lt;T&gt;" Collapsed="true">
+    <Position X="8.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Classes\ContinutUpdate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Classes.FragmentDeCod" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgCAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\FragmentDeCod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Classes.FragmenteDeCodHolder" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\FragmentDeCod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Classes.Lectie" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAICEAAAAAgEAAAEAMAAAAAAQAAAAAAAAAhAAEAAAAA=</HashCode>
+      <FileName>Classes\Lectii.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InfoCenter.Classes.LectiiHolder" Collapsed="true">
+    <Position X="10" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAADAAABAAAA=</HashCode>
+      <FileName>Classes\Lectii.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Classes.Problema" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAAAAEAiAIAAAQQAAAAAQAAAAAAkAAAAA=</HashCode>
+      <FileName>Classes\Probleme.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InfoCenter.Classes.CuvantCheie" Collapsed="true">
+    <Position X="10" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Classes\Probleme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Classes.SettingsHolder" Collapsed="true">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Classes.Setting" Collapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAEAAAAAAAAAAAABAgAAAAAAAA=</HashCode>
+      <FileName>Classes\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Classes.Splasher" Collapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAEAAAAAAAAAAAABAAAAAAEAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Classes\Splasher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Classes.Test" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAACAEACAAAFAAQAAAAAAAAAAAAEIBAAA=</HashCode>
+      <FileName>Classes\Teste.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InfoCenter.Classes.IntrebareTest" Collapsed="true">
+    <Position X="5.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAGAEIAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Teste.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Classes.IntrebareGrila" Collapsed="true">
+    <Position X="5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQCAAAAAAEJAAAAAAAAAQAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Classes\Teste.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Classes.Tip" Collapsed="true">
+    <Position X="4.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Tip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Classes.UnitateTestare" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAEAAAEQABAAAAAAAAAAAAgBAAAABAAAAA=</HashCode>
+      <FileName>Classes\UnitateTestare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Controls.CompilerTextBox" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAKAMAIAAAACAIACCBAAAAAAiBAAACAACAAA=</HashCode>
+      <FileName>Controls\CompilerTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Controls.CustomGridViewTextBoxColumn&lt;T&gt;" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Controls\CustomGridViewColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Controls.CustomGridViewCommandColumn" Collapsed="true">
+    <Position X="10" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\CustomGridViewColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Controls.CustomListViewItem&lt;T&gt;" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Controls\CustomListViewItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Controls.CustomMessageBox" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAACAAAAAAAADAAAACAAAAAAgAAAAAAAABAAA=</HashCode>
+      <FileName>Controls\CustomMessageBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Controls.CustomRadItem&lt;T&gt;" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Controls\CustomRadItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Controls.CustomTimer" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACAQAAAEQAAAAAAAAABACAAAIAABAAAAAAA=</HashCode>
+      <FileName>Controls\CustomTimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Controls.CustomTreeNode&lt;T&gt;" Collapsed="true">
+    <Position X="8.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAkAAAgAA=</HashCode>
+      <FileName>Controls\CustomTreeNodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Controls.TestGroupBox" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAiAAAAAAAgAAAACAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Controls\TestGroupBox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InfoCenter.Extensions.Extensions" Collapsed="true">
+    <Position X="8.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAgEAAAQAAA=</HashCode>
+      <FileName>Extensions\Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Extensions.ListExtensions" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAIAAAQAAAAAAAQAAAAAAAACA=</HashCode>
+      <FileName>Extensions\ListExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Forms.FrmSplash" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQACAAABAAAACAAAACQAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\frmSplash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Handlers.CompilerHandler" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQAAAAYAAAAAAAAAQEgAAAACBQAIAAQAAgAAAIAQA=</HashCode>
+      <FileName>Handlers\CompilerHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Handlers.ContinutHandler" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAgIAAAABgAAAgAAFZAAAAABAAAEIRAIAAAAEAEA=</HashCode>
+      <FileName>Handlers\ContinutHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Handlers.DatabaseHandler" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAUAAAABAAAEAABAAUAAAAAAQAAAAAAAAQA=</HashCode>
+      <FileName>Handlers\DatabaseHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Handlers.EventsHandler" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAACEAAAAAgAAAAAAQCAAAAAAAAA=</HashCode>
+      <FileName>Handlers\EventsHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Handlers.ExceptionsHandler" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAACIAAQAAAAAAAAAA=</HashCode>
+      <FileName>Handlers\ExceptionsHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Handlers.FragmenteDeCodHandler" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAHAAAAAAAAAAAARAAAAAAAAAA=</HashCode>
+      <FileName>Handlers\FragmenteDeCodHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Handlers.LectiiHandler" Collapsed="true">
+    <Position X="8.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAHAAAAAAAAAAAARAAAAAAAAAA=</HashCode>
+      <FileName>Handlers\LectiiHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Handlers.LoadingHandler" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAQAAAAQAAAAAAABAA=</HashCode>
+      <FileName>Handlers\LoadingHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Handlers.ResourcesHandler" Collapsed="true">
+    <Position X="10" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>pVEAiQYAEEwBQCAAEKIGBCCAAAAACFFAYSjEAQDgwIA=</HashCode>
+      <FileName>Handlers\ResourcesHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Handlers.TestHandler" Collapsed="true">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAFABAAAAAAAAAIQAAAAAABAEA=</HashCode>
+      <FileName>Handlers\TestHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Properties.Resources" Collapsed="true">
+    <Position X="8.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Properties.Settings" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Util.Config" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAQBAEAAACACAAUAAAAAACASAAAAAAAAABA=</HashCode>
+      <FileName>Util\Config.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Util.DBStrings" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAiBAiIURAACIEAAkAAIAIAAQEAASAgRAAQBBgAAA=</HashCode>
+      <FileName>Util\DBStrings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Util.EncodingUtil" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQEAAAAAAAA=</HashCode>
+      <FileName>Util\Encoding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Util.FontUtil" Collapsed="true">
+    <Position X="10" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Util\FontMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Util.Logging" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAIAAAAEAAAAAAEAAAAAQAAAAAEAAAA=</HashCode>
+      <FileName>Util\Logging.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Util.Messages" Collapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KExSwAEQGmWAXNyKMDEQwoGFgpBoKOgjA2ASEAEXCAc=</HashCode>
+      <FileName>Util\Messages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Util.Settings" Collapsed="true">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAEACAIIgAAAEAAAAAAAAAEgAQAAEwAAAAAA=</HashCode>
+      <FileName>Util\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Util.UpdatesManager" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIACAAAAAAAABAAAAIAMQAAAAAAQAACAAAAAAAAAJM=</HashCode>
+      <FileName>Util\UpdatesManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Util.UploadManager" Collapsed="true">
+    <Position X="6.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAAAAAAAAAAAAAAAAAAQAgACAAAIAAAAEAAA=</HashCode>
+      <FileName>Util\UploadManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="InfoCenter.Classes.InfoCenterEvent" Collapsed="true">
+    <Position X="3.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Classes\InfoCenterEvent.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="InfoCenter.Classes.IContinut" Collapsed="true">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\IContinut.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InfoCenter.Controls.ITestGroupBox" Collapsed="true">
+    <Position X="6.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAiAAAAAAAgAAAACAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Controls\ITestGroupBox.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="InfoCenter.Classes.CompilerType" Collapsed="true">
+    <Position X="4" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Compiler.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="InfoCenter.Classes.ContinutUpdateType" Collapsed="true">
+    <Position X="6.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAYAAAQAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ContinutUpdate.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

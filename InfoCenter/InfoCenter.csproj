@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C975A95-AB2D-4946-A505-17D817BC8D85}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InfoCenter</RootNamespace>
+    <AssemblyName>InfoCenter</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>Resources\Icons\info.ico</ApplicationIcon>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>8F1E30A61344ADCDE7709B02C2AE236D46B8C511</ManifestCertificateThumbprint>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>InfoCenter.snk</AssemblyOriginatorKeyFile>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <TargetZone>LocalIntranet</TargetZone>
+    <PublishUrl>E:\Work\Projects\Publish\InfoCenter\_publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ProductName>Info Center</ProductName>
+    <PublisherName>Timotei Dolean %28Liceul de Informatica Tiberiu Popoviciu%29</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.TextEditor, Version=3.0.0.3683, Culture=neutral, PublicKeyToken=4d61825e8dd49f1a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libraries\ICSharpCode.TextEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=8.1.0.0, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libraries\Telerik 8.1.0\Telerik.WinControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.GridView, Version=8.1.0.0, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libraries\Telerik 8.1.0\Telerik.WinControls.GridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI, Version=8.1.0.0, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libraries\Telerik 8.1.0\Telerik.WinControls.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="TelerikCommon, Version=8.1.0.0, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libraries\Telerik 8.1.0\TelerikCommon.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\FrmIntrebareGrilaGroupBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\frmIntrebareGrilaGroupBox.Designer.cs">
+      <DependentUpon>FrmIntrebareGrilaGroupBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FrmIntrebareTestGroupBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FrmIntrebareTestGroupBox.Designer.cs">
+      <DependentUpon>FrmIntrebareTestGroupBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAfisareMarita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAfisareMarita.designer.cs">
+      <DependentUpon>frmAfisareMarita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAboutBox.designer.cs">
+      <DependentUpon>frmAboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmEventsWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmEventsWindow.Designer.cs">
+      <DependentUpon>frmEventsWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmFragmenteDeCod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmFragmenteDeCod.Designer.cs">
+      <DependentUpon>FrmFragmenteDeCod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOptiuni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOptiuni.Designer.cs">
+      <DependentUpon>frmOptiuni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDetaliiUnitateTestare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDetaliiUnitateTestare.Designer.cs">
+      <DependentUpon>frmDetaliiUnitateTestare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Compilator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lectii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Probleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\frmIntrebareGrilaGroupBox.resx">
+      <DependentUpon>FrmIntrebareGrilaGroupBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FrmIntrebareTestGroupBox.resx">
+      <DependentUpon>FrmIntrebareTestGroupBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAfisareMarita.resx">
+      <DependentUpon>frmAfisareMarita.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAboutBox.resx">
+      <DependentUpon>frmAboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmEventsWindow.resx">
+      <DependentUpon>frmEventsWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmFragmenteDeCod.resx">
+      <DependentUpon>FrmFragmenteDeCod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOptiuni.resx">
+      <DependentUpon>frmOptiuni.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDetaliiUnitateTestare.resx">
+      <DependentUpon>frmDetaliiUnitateTestare.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0_star_rating.gif" />
+    <None Include="Resources\1_star_rating.gif" />
+    <None Include="Resources\3_star_rating.gif" />
+    <None Include="Resources\2_star_rating.gif" />
+    <None Include="Resources\imgPrint.png" />
+    <None Include="Resources\imgSave.png" />
+    <None Include="Resources\imgToate.gif" />
+    <None Include="Resources\imgSaveAsT.png" />
+    <None Include="Resources\imgSaveT.png" />
+    <None Include="Resources\imgBold.gif" />
+    <None Include="Resources\imgItalic.gif" />
+    <None Include="Resources\imgMareste.gif" />
+    <None Include="Resources\imgDetalii.png" />
+    <None Include="Resources\imgDecreaseFont.gif" />
+    <None Include="Resources\imgIncreaseFont.gif" />
+    <None Include="Resources\imgClose.png" />
+    <None Include="Resources\imgOptiuni.png" />
+    <None Include="Resources\imgCompileBig.png" />
+    <None Include="Resources\imgOk.png" />
+    <None Include="Resources\imgPlay.png" />
+    <None Include="Resources\btnOk16.png" />
+    <None Include="Resources\Icons\info.ico" />
+    <None Include="Resources\info.ico" />
+    <None Include="Resources\imgAlert16.png" />
+    <None Include="Resources\imgAlert32.png" />
+    <None Include="Resources\imgError16.png" />
+    <None Include="Resources\imgError.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="InfoCenter.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="InfoCenterTools">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="InfoCenterTools.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Telerik.WinControls">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Telerik.WinControls.GridView">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Telerik.WinControls.UI">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="TelerikCommon">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="TODO.txt">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asdad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoRibbon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading_nou1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading_nou.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading_nou2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IC_logo_vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading_nou21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgSave32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgSaveAs16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgSaveAs32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgSave16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgTestare.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgTestare1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgPrint32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgPlay16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgSaveAs20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgSave20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgSave32_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgSaveAs32_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgWrong16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgRefresh32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgClock32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgPunctaj32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgTest32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgProbleme32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="InfoCenter.snk" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Resources\imgRun.png" />
+    <None Include="Resources\imgRun1.png" />
+    <None Include="Resources\imgCompile36.png" />
+    <None Include="Resources\imgCompile361.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgZoom32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InfoCenterTools\InfoCenterTools.csproj">
+      <Project>{33DC5452-12A0-4806-A269-D5750101198F}</Project>
+      <Name>InfoCenterTools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\codesnippet32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgSave161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addCodSursa32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgAdd16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_background5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\imgBacup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_logo_vertical_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_logo_horizontal_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newBackground800.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newBackground.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

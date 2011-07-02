@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <setting name="CPPPath" value="C:\Documents and Settings\KiMi\My Documents\cppcompiler\bin\c++.exe" />
+  <setting name="QuickSavePath" value="" />
+  <setting name="CPPPattern" value="{0} -o {1} -Wno-deprecated" />
+</settings>

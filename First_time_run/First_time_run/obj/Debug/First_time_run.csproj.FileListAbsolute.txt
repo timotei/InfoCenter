@@ -1,0 +1,21 @@
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\bin\Debug\First_time_run.exe
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\bin\Debug\First_time_run.pdb
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\obj\Debug\ResolveAssemblyReference.cache
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\obj\Debug\First_time_run.exe
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\obj\Debug\First_time_run.pdb
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\bin\Debug\ICSharpCode.SharpZipLib.dll
+G:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\bin\Debug\First_time_run.exe
+G:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\bin\Debug\First_time_run.pdb
+G:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\obj\Debug\ResolveAssemblyReference.cache
+G:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\obj\Debug\First_time_run.exe
+G:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\obj\Debug\First_time_run.pdb
+D:\Folder nou\InfoCenter\First_time_run\First_time_run\bin\Debug\First_time_run.exe
+D:\Folder nou\InfoCenter\First_time_run\First_time_run\bin\Debug\First_time_run.pdb
+D:\Folder nou\InfoCenter\First_time_run\First_time_run\obj\Debug\ResolveAssemblyReference.cache
+D:\Folder nou\InfoCenter\First_time_run\First_time_run\obj\Debug\First_time_run.exe
+D:\Folder nou\InfoCenter\First_time_run\First_time_run\obj\Debug\First_time_run.pdb
+F:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\bin\Debug\First_time_run.exe
+F:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\bin\Debug\First_time_run.pdb
+F:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\obj\Debug\ResolveAssemblyReference.cache
+F:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\obj\Debug\First_time_run.exe
+F:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\obj\Debug\First_time_run.pdb

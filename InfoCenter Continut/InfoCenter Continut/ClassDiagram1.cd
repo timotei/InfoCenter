@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InfoCenter.MainForm" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>56Gg/cvU9L6Qspg3FzWc6cQfQz1jLcjrsa5zL2+j+Do=</HashCode>
+      <FileName>Backup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Program" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAABEAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Forms.FrmAboutBox" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kIACAAgAACAACAUAAACAAAADAAAAEIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\frmAboutBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Forms.FrmAdministrareTipuri" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEhgAAFACAAgBAAAECBAAACCkAASBAABKAMYMIAAQA=</HashCode>
+      <FileName>Forms\frmAdministrareTipuri.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Forms.FrmEditorCodSursa" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAIAGAACAAAACAAAAAAAAAAAAAAAAAJQ=</HashCode>
+      <FileName>Forms\frmEditorCodSursa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Forms.FrmIntrebare" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAIAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\frmIntrebare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Forms.FrmIntrebareTest" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgDAAAICEAAQCABAKAQCAAAAAEAIAACA=</HashCode>
+      <FileName>Forms\frmIntrebareTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Forms.FrmIntrebareGrila" Collapsed="true">
+    <Position X="8.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAwCEACAAATAGAICkEAQKACkIAQaBAgoA0IMAACA=</HashCode>
+      <FileName>Forms\frmIntrebareTestGrila.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Forms.FrmLogin" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAFAAQAAAAQAAAAAAI=</HashCode>
+      <FileName>Forms\frmLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Forms.FrmNavigatorLectie" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\frmNavigatorLectie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Forms.FrmSelectareProblema" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBgAABACAAEBAAEICAEAACAgCAAAAAAQAIEEAAgAA=</HashCode>
+      <FileName>Forms\frmSelectareProblema.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Forms.FrmSelectareTest" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgAABACAAABAAAICAQAACAAAAAFAAEAAIEEIBAAA=</HashCode>
+      <FileName>Forms\frmSelectareTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Forms.FrmUnitateTestare" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAABAACAAABAAgIjAAAQCAAAAAAAAAAAAIAAAALA=</HashCode>
+      <FileName>Forms\frmUnitateTestare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Properties.Resources" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAYBAAAEYAAQAEIVEABgAQCAAAAAAADIAMAAAIQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoCenter.Properties.Settings" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,21 @@
+#include<iostream.h>
+#include<fstream.h>
+
+ifstream fin("date.in");
+ofstream fout("date.out");
+
+using namespace std;
+
+int main()
+{	
+	int a=0,b=0,s=0;
+	fin>>a>>b;
+	
+	fout<<"Hello World"<<endl;
+	fout<<(a+b)<<endl;	
+	
+	fout.close();	
+	fin.close();
+	
+	return 0;
+}

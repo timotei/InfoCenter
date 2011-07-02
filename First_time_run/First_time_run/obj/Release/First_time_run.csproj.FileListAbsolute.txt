@@ -1,0 +1,31 @@
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\obj\Release\ResolveAssemblyReference.cache
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\bin\Release\First_time_run.exe
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\bin\Release\First_time_run.pdb
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\obj\Release\First_time_run.exe
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\obj\Release\First_time_run.pdb
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\Documents\Stuff\Locker\Locker\InfoCenter\First_time_run\First_time_run\bin\Release\First_time_run.exe
+F:\Documents\Stuff\Locker\Locker\InfoCenter\First_time_run\First_time_run\bin\Release\First_time_run.pdb
+F:\Documents\Stuff\Locker\Locker\InfoCenter\First_time_run\First_time_run\obj\Release\ResolveAssemblyReference.cache
+F:\Documents\Stuff\Locker\Locker\InfoCenter\First_time_run\First_time_run\obj\Release\First_time_run.exe
+F:\Documents\Stuff\Locker\Locker\InfoCenter\First_time_run\First_time_run\obj\Release\First_time_run.pdb
+G:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\bin\Release\First_time_run.exe
+G:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\bin\Release\First_time_run.pdb
+G:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\obj\Release\ResolveAssemblyReference.cache
+G:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\obj\Release\First_time_run.exe
+G:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\obj\Release\First_time_run.pdb
+D:\Folder nou\InfoCenter\First_time_run\First_time_run\bin\Release\First_time_run.exe
+D:\Folder nou\InfoCenter\First_time_run\First_time_run\bin\Release\First_time_run.pdb
+D:\Folder nou\InfoCenter\First_time_run\First_time_run\obj\Release\ResolveAssemblyReference.cache
+D:\Folder nou\InfoCenter\First_time_run\First_time_run\obj\Release\First_time_run.exe
+D:\Folder nou\InfoCenter\First_time_run\First_time_run\obj\Release\First_time_run.pdb
+D:\InfoCenter\First_time_run\First_time_run\bin\Release\First_time_run.exe
+D:\InfoCenter\First_time_run\First_time_run\bin\Release\First_time_run.pdb
+D:\InfoCenter\First_time_run\First_time_run\obj\Release\ResolveAssemblyReference.cache
+D:\InfoCenter\First_time_run\First_time_run\obj\Release\First_time_run.exe
+D:\InfoCenter\First_time_run\First_time_run\obj\Release\First_time_run.pdb
+F:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\bin\Release\First_time_run.exe
+F:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\bin\Release\First_time_run.pdb
+F:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\obj\Release\ResolveAssemblyReference.cache
+F:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\obj\Release\First_time_run.exe
+F:\Documents\Stuff\InfoCenter\First_time_run\First_time_run\obj\Release\First_time_run.pdb

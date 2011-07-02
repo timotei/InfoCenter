@@ -1,0 +1,6 @@
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\bin\x86\Debug\FirstTimeRun.exe
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\bin\x86\Debug\FirstTimeRun.pdb
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\obj\x86\Debug\FirstTimeRun.exe
+E:\Work\Projects\InfoCenter\First_time_run\First_time_run\obj\x86\Debug\FirstTimeRun.pdb
