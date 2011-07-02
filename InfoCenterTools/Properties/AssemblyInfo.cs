@@ -11,7 +11,7 @@ using System;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Timotei Dolean")]
 [assembly: AssemblyProduct("InfoCenterTools")]
-[assembly: AssemblyCopyright("Copyright ©  2009")]
+[assembly: AssemblyCopyright("Copyright ©  2009 - 2011 Timotei Dolean")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

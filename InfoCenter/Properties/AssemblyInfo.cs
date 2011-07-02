@@ -9,9 +9,9 @@ using System;
 [assembly: AssemblyTitle("Info Center")]
 [assembly: AssemblyDescription("Platformă de studiu pentru profilul Informatică(C++) - Liceu")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Timotei Dolean - Liceul de Informatică \"Tiberiu Popoviciu\"")]
+[assembly: AssemblyCompany("Timotei Dolean")]
 [assembly: AssemblyProduct("Info Center")]
-[assembly: AssemblyCopyright("Copyright ©  2008-2009 Timotei Dolean")]
+[assembly: AssemblyCopyright("Copyright ©  2008-2011 Timotei Dolean")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

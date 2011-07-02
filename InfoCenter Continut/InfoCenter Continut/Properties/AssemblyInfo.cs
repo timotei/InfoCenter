@@ -9,9 +9,9 @@ using System;
 [assembly: AssemblyTitle("Info Center Continut")]
 [assembly: AssemblyDescription("Aplicaţie pentru adăugarea conţinutului la Info Center")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Timotei Dolean - Liceul de Informatică \"Tiberiu Popoviciu\"")]
+[assembly: AssemblyCompany("Timotei Dolean")]
 [assembly: AssemblyProduct("Info Center Continut")]
-[assembly: AssemblyCopyright("Copyright ©  2009 Timotei Dolean")]
+[assembly: AssemblyCopyright("Copyright ©  2007-2011 Timotei Dolean")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
